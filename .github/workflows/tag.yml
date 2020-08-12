@@ -27,9 +27,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: t=$(git describe --tags `git rev-list --tags --max-count=1`)
-           # get current commit hash for tag
            commit=$(git rev-parse HEAD)
-           # if there are none, start tags at 0.0.0
            echo "=================="
            echo $commit
            echo $t
