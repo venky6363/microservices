@@ -29,4 +29,4 @@ jobs:
     - name: Run a multi-line script
       run: |
        pwd
-       sh ./tag.sh
+       sh ./home/runner/work/microservices/microservices/.github/workflows/tag.sh
